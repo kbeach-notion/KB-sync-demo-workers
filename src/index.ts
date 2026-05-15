@@ -1,5 +1,6 @@
 import { Worker } from "@notionhq/workers";
-import { j } from "@notionhq/workers/schema-builder";
+import * as Builder from "@notionhq/workers/builder";
+import * as Schema from "@notionhq/workers/schema";
 
 const worker = new Worker();
 export default worker;
